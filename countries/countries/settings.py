@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-2!hy)3qcu@a5)l#@7k@baa!5&19*lv5g^gz1kgmstn7gc@v%u2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['44.208.167.155', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['44.208.167.155', 'localhost', '127.0.0.1', 'cryptobro.pro']
 
 
 # Application definition
